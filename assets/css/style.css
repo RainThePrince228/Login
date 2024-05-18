@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+#block_left{
+    width: 50%;
+    height: 100vh;
+    /*background-image: url("../img/istockphoto-1093508248-612x612.jpg");*/
+    background-color: rgb(177, 106, 218);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#block_left h1{
+    padding: 5%;
+}
+
+#block_left p{
+    padding: 5%;
+}
+
+#block_regist{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(230, 195, 250);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#block_regist h3{
+    padding: 5% 5% 0%;
+    font-size: 25px;
+}
+
+#block_regist p{
+    padding: 5% 5% 2%;
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    background: none;
+    border: 0.5px solid black;
+    width: 500px;
+    padding: 5px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    font-size: 14px;
+}
+
+input[type="password"]{
+    background: none;
+    border: 0.5px solid black;
+    width: 500px;
+    padding: 5px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    font-size: 14px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: #ffef0b;
+    border: 0.5px solid black;
+    width: 500px;
+    padding: 5px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    font-size: 14px;
+}
+
+#block_login{
+    display: none;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(230, 195, 250);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#block_login h3{
+    padding: 5% 5% 0%;
+    font-size: 25px;
+}
+
+#block_login p{
+    padding: 5% 5% 2%;
+}
+
+#checkbox{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+
+#log_checkbox{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 1%;
+}
+
+#checkbox span{
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
